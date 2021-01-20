@@ -58,7 +58,7 @@ class App extends React.Component {
     return (
       <div id='App'>
         <header>
-          <h1>FusionAuth Example: React</h1>
+          <h1>FusionAuth: React</h1>
           <Greeting body={this.state.body}/>
           <LogInOut body={this.state.body} uri={`http://localhost:${config.serverPort}`}/>
         </header>

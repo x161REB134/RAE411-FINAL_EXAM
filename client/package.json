@@ -1,7 +1,6 @@
 {
   "name": "fusionauth-example-react-client",
   "version": "0.0.0",
-  "description": "",
   "main": "index.js",
   "babel": {
     "presets": [
@@ -30,5 +29,6 @@
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"
-  }
+  },
+  "description": ""
 }
