@@ -14,20 +14,24 @@ Prasības lai palaistu projektu:
 
 Darba palaišana:
 
-1. apt install nodejs – nodejs instalācija
-1. apt install npm – npm instalācija
-1. apt-get install postgresql-12 – datubāzes instalācija
-1. sh -c "curl -fsSL https://raw.githubusercontent.com/FusionAuth/fusionauth-install/master/install.sh | sh -s - -z" – fusionauth instalācija
-1. git clone -b starter git@github.com:x161REB134/RAE411-FINAL\_EXAM.git - failu lejuplāde no GIT
-1. fusionauth/bin/startup.sh – fusionauth palaišana 
-1. [http://localhost:9011](http://localhost:9011/) – fusionauth sākotnējā konifugurācija (savienošana ar postgresql un lietotāja izveide)
-1. [http://localhost:9011](http://localhost:9011/) izveidot Fusionauth (izveidota automātiski) un oAuth aplikāciju, jāizveido API atslēga (nav obligāti)
-1. Lejpulādētajā git mapē jāizmaina config.js ClientID, Client Secre, Redirect URI, application ID (vienāds ar ClientID). 
-1. cd fusionauth-example-react/server – atrasties servera mapē
-1. npm start – palaist servera pusi
-1. cd Desktopfusionauth-example-react/client – atrasties klienta mapē
-1. npm start – palaist klienta pusi 
-1. <http://localhost:8080/> - gala rezultāts
+1.	apt install nodejs
+2.	apt install npm 
+3.	apt-get install postgresql-12
+4.	sh -c "curl -fsSL https://raw.githubusercontent.com/FusionAuth/fusionauth-install/master/install.sh | sh -s - -z" – fusionauth instalācija 
+5.	Lejuplādēt failus no šī repository
+6.	fusionauth/bin/startup.sh – fusionauth palaišana 
+7.	http://localhost:9011 – fusionauth sākotnējā konifugurācija (savienošana ar postgresql un lietotāja izveide)
+8.	http://localhost:9011 izveidot oAuth aplikāciju (Jāievada name, Authorized Redirect URL - http://localhost:9000/oauth-callback, LogOut URL - http://localhost:8080)
+9.	FusionAuth admin panerlī zem Users, lietotājam pievineot registration Oauth
+10.	Lejpulādētajā git mapē jāizmaina config.js ClientID, Client Secre, Redirect URI, application ID (vienāds ar ClientID). 
+11.	Palaist server pusi
+12.	npm install
+13.	npm start – palaist servera pusi
+14.	Palaist client pusi
+15.	npm install
+16.	npm start – palaist klienta pusi 
+17.	http://localhost:8080/ - gala rezultāts
+
 
 
 
